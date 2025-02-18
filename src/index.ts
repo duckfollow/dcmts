@@ -2,12 +2,13 @@ import { checkDCMTKVersion } from "./checkVersion";
 import { readDICOMMetadata } from "./readDICOM";
 import { convertDICOMToPNG } from "./convertToPNG";
 import { convertJPGToDICOM } from "./convertToDCM";
-import { sendDICOMToPACS } from "./sendToPACS";
+import { sendDICOMToPACS, sendUnCompressToPACS } from "./sendToPACS";
 
 export {
   checkDCMTKVersion,
   readDICOMMetadata,
   convertDICOMToPNG,
   convertJPGToDICOM,
-  sendDICOMToPACS
+  sendDICOMToPACS,
+  sendUnCompressToPACS
 };
